@@ -1,0 +1,23 @@
+{
+    "name": "gale/swapi",
+    "description": "PHP wrapper for Swapi API.",
+    "keywords": ["php", "swapi", "laravel"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aleksandar Galic",
+            "email": "aleksandar.galic@quantox.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Gale\\Swapi\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": ["Gale\\Swapi\\SwapiServiceProvider"]
+        }
+    }
+}
